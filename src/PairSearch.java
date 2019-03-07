@@ -6,7 +6,7 @@ import java.util.Set;
 /**
  * Created by Kamil on 2019-03-06.
  */
-public class Counter {
+public class PairSearch {
     public void findPairs(int[] tab) {
         List<Pair> minResults = new LinkedList<>();
         List<Pair> maxResults = new LinkedList<>();

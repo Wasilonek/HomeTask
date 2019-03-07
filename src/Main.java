@@ -10,11 +10,11 @@ public class Main {
             System.out.println("Enter data");
             return;
         }
-        Counter counter_1 = new Counter();
+        PairSearch pairSearch_1 = new PairSearch();
         int[] tab = new int[args.length];
         for(int i = 0 ; i < args.length ; i++){
             tab[i] = Integer.parseInt(args[i]);
         }
-        counter_1.findPairs(tab);
+        pairSearch_1.findPairs(tab);
     }
 }
